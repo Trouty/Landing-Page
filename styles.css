@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header a,
+.header,
+.subheader {
+    color: white;
+}
+
+.header {
+    padding: 16px 48px 8px 48px;
+    display: flex;
+    background-color: #343a40;
+    align-self: stretch;
+}
+
+.header-logo {
+    font-weight: 700;
+}
+
+.header-links {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.subheader {
+    display: flex;
+    padding: 32px 48px 48px 48px;
+    gap: 100px;
+    background-color: #343a40;
+}
+
+.sh-img {
+    height: 200px;
+    width: auto;
+    align-self: flex-start;
+    border-radius: 10px;
+}
+
+.sh-title {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+}
+
+.sh-button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+.information {
+    margin: 16px
+}
+
+.information-title {
+    font-size: 32px;
+    color: #343a40;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.information-cards {
+    display: flex;
+    gap: 32px;
+}
+
+.information-card img {
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.information-card div {
+    font-size: 11px;
+    color: #343a40;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.information-card {
+    
+}
